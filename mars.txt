@@ -1,0 +1,12 @@
+ fnreeAll->Draw("Photon.sigmaIetaIeta >> num2040",
+        detEta_cut
+        && hadTowerOverEm_cut
+        && rhocorPFIsoCharged03_cut
+        && rhocorPFIsoPhoton03_cut
+        && rhocorPFIsoNeutraln03_cut
+        && sigmaIetaIeta_cut2
+        && ptcut[i]
+        && elecveto
+        && sigmaIphiIphi_cut
+        && isEBEEGap_cut
+        && recHitFlag_cut); 
