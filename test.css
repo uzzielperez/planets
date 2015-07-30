@@ -1,0 +1,22 @@
+p{
+  color: blue;
+  font-size: 20pt;
+}
+
+.red{
+  color: #FF8080;
+}
+
+p.red{
+  font-weight: 800;
+  background-color: yellow;
+}
+
+h1{
+  font-size: 100px;
+  text-align: center;
+}
+
+#MySpecialDiv{
+  font-family: Helvetica, Arial;
+}
